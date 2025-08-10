@@ -1,4 +1,5 @@
 pub mod commands;
 pub mod args;
 
-pub use args::Cli;
+// Re-export for easy importing
+pub use args::{Cli, Commands};
